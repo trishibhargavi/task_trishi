@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {margin:0;}
+
+.header {
+  padding:10px;
+  text-align: center;
+  background:paleturquoise;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:pink;
+  position: sticky;
+  top:0;
+  bottom: 0;
+  position:-webkit-sticky
+}
+
+li {
+  float:left;
+  margin-left: 0px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color:darksalmon;
+}
+
+li a:hover:not(.active) {
+  background-color:powderblue;
+}
+
+.active {
+  background-color: pink;
+}
+
+.div1{
+  padding: 20px;
+  margin-top:0px;
+  background-image: url(bake.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+.footer  h1{
+  font-family:cursive;
+  
+}
+.header  h1{
+  font-family:cursive;
+}
+h2{
+  color:crimson;
+}
+p
+{font-family:fantasy;
+  font-size: small;
+  font-weight:normal;
+
+}
+
+.div1 p{
+  font-family:serif;
+  font-size: xx-large;
+  color: antiquewhite;
+
+}
+
+.login
+{
+  float:right;
+}
+
+.login input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;
+}
+
+.login button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color:darksalmon;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.footer {
+  padding: 20px;
+  
+  
+  text-align: center;
+  background:paleturquoise;
+}
+.footer a{
+  font-style:italic;
+  padding-bottom: 500px;
+}
+
+.main {   
+  
+  flex: 70%;
+  background-image: url("bake.jpg");
+  background-size: cover;
+  padding: 20px;
+}
+.main::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.img {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1><b>Cake Walk</b></h1>
+    <p>Welcome to the dessert world.....</p>
+  
+</div>
+
+  <ul>
+  <li><a href="file:///C:/Users/Personal/Desktop/work.html">Home</a></li>
+  <li><a href="file:///C:/Users/Personal/Desktop/contactus.html">Contact</a></li>
+  <li><a href="file:///C:/Users/Personal/Desktop/aboutus.html">About</a></li>
+  
+  <div class="login">
+  
+    <input type="text" placeholder="username" name="username">
+    <input type="text" placeholder="password" name="psw">
+    <button type="submit">Login</button>
+  </div>
+  </ul>
+
+
+  <div class="main">
+    <center><h2>ALL CAKES ARE TAILORED TO YOUR TASTE AND STYLE</h2></center>
+    <div class="img">
+      <img src="one.jpg" alt="cake" style="width:100%">
+      </div>
+    <div class="img">
+      <img src="two.jpg" alt="cake" style="width:100%">
+      </div>
+   <div class="img">
+        <img src="three.jpg" alt="cake" style="width:100%">
+        </div>
+    <div class="img">
+        <img src="four.jpg" alt="cake" style="width:100%">
+        </div>
+        
+  </div>   
+    
+
+<div class="footer">
+  <h1><b>Cake Walk</b></h1>
+  <p>Welcome to the dessert world.....</p>
+
+</div>
+
+
+
+
+  
+
+</body>
+</html>
