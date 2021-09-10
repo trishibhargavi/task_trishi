@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beats Entertainment</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="file:///C:/Users/Personal/Desktop/task/about.html">Beats Entertainment</a>
+      </div>
+      <ul>
+        <li><a class="active" href="file:///C:/Users/Personal/Desktop/task/home.html">Home</a></li>
+        <li><a href="file:///C:/Users/Personal/Desktop/task/about.html">About</a></li>
+        
+        <li><a href="file:///C:/Users/Personal/Desktop/task/contact.html">Contact</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Services</a>
+          <div class="dropdown-content">
+            <a href="#">Company</a>
+            <a href="#">Investors</a>
+            <a href="#">News</a>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  <div class="img"></div>
+  <div class="center">
+    <div class="title">Let Music flow in your heart and enrich your soul</div>
+    <div class="sub_title">~beats~</div>
+    <div class="btns">
+      <button>Learn More</button>
+      </div>
+  </div>
+
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top" style="font-size:24px">
+    <i style="font-size:24px" class="fa">&#xf0aa;</i>
+  </button>
+<script>
+
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<div class="footer">
+    <h1><b>BEATS</b></h1>
+    <p>Welcome to the music world.....</p>
+    <h3>connect with us on</h3>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-pinterest"></a>
+    <a href="#" class="fa fa-google"></a>
+  </div>
+</body>
+</html>
