@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch</title>
+    <link rel="stylesheet" href="fetch.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="fetch.js"></script>
+    
+   </head>
+   <body>
+    <nav>
+        <div class="menu">
+          <div class="logo">
+            <a href="file:///C:/Users/Personal/Desktop/task2/about.html">Beats Entertainment</a>
+          </div>
+          <ul>
+            <li><a href="file:///C:/Users/Personal/Desktop/task2/home.html">Home</a></li>
+            <li><a href="file:///C:/Users/Personal/Desktop/task2/about.html">About</a></li>
+            
+            <li><a href="file:///C:/Users/Personal/Desktop/task2/contact.html">Contact</a></li>
+            <li class="dropdown">
+              <a class="dropbtn">Services</a>
+              <div class="dropdown-content">
+                <a href="#">Company</a>
+                <a href="#">Investors</a>
+                <a href="#">News</a>
+              </div>
+            </li>
+            <li><a class="active" href="fetch.html">Post</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+       <div class="container">
+           <h2>POSTS</h2>
+           
+                   <form class="Add_Form">
+                    <div class="Form">
+                        <label for="userid">userId</label>
+                        <input type="text" class="userid" id="userid">
+                    </div>
+                       <div class="Form">
+                           <label for="id">Id</label>
+                           <input type="text" class="id" id="id">
+                       </div>
+                       <div class="Form">
+                           <label for="title">Title</label>
+                           <input type="text" class="title" id="title">
+                       </div>
+                       <div class="Form">
+                        <label for="content">Content</label>
+                        <textarea class="Form" id="body"></textarea>
+                    </div>
+                       <button type="submit" class="button">Add Post</button>
+                   </form>
+               
+           <div class="posts-list"></div>
+       </div>
+       
+   </body>
+   </html>
